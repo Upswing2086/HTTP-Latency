@@ -1,4 +1,4 @@
-const nodes = $surge.selectGroup("Proxy"); // 获取所有节点信息
+const nodes = $surge.selectGroup("✈️ 其它节点"); // 获取所有节点信息
 
 async function updateLatency() {
     const results = [];
