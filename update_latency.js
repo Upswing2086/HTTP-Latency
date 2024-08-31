@@ -11,7 +11,7 @@ async function updateLatency() {
                 policy: node
             });
             let latency = Date.now() - startTime;
-            if (latency < 50) {
+            if (latency < 250) {
                 results.push({ node, latency });
             }
         } catch (error) {
